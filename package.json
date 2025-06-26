@@ -3,8 +3,7 @@
     "vitepress": "^1.6.3"
   },
   "scripts": {
-    "start": "npm run docs:dev",
-    "docs:dev": "vitepress dev docs --host 0.0.0.0 --port 5173",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   }

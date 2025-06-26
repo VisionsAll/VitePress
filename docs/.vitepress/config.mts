@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   title: "所见笔记所得知识",
   description: "个人笔记记录与分享",
   head: [
@@ -119,7 +120,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: `<a href="https://beian.miit.gov.cn/" target="_blank">ICP备案号</a>`,
+      message: `<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2025127622号</a>`,
       copyright: `版权所有 © 2025-${new Date().getFullYear()} VsA`,
     }
   }
