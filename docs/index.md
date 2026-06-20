@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "所见笔记所得知识"
+  name: "量子视野"
   text: "个人笔记记录与分享"
-  tagline: 一起来探索世界
+  tagline: 一起探索世界
   image:
     src: /logo.png
     alt: VitePress
@@ -24,8 +24,7 @@ features:
     icon:
       src: /构建.svg
   - title: 分享
-    details: 好用的好玩的实用的项目
+    details: 好用好玩的项目
     icon:
       src: /分享.svg
 ---
-

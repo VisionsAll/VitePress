@@ -1,9 +1,9 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/',
-  title: "所见笔记所得知识",
+  base: "/",
+  title: "量子视野",
   description: "个人笔记记录与分享",
   head: [
     [
@@ -38,7 +38,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.png",
     search: {
-      provider: 'local',
+      provider: "local",
       options: {
         miniSearch: {
           options: {
@@ -50,53 +50,51 @@ export default defineConfig({
         },
         translations: {
           button: {
-            buttonText: '搜索文档',
-            buttonAriaLabel: '搜索文档'
+            buttonText: "搜索文档",
+            buttonAriaLabel: "搜索文档",
           },
           modal: {
-            noResultsText: '无法找到相关结果',
-            resetButtonTitle: '清除查询条件',
+            noResultsText: "无法找到相关结果",
+            resetButtonTitle: "清除查询条件",
             footer: {
-              selectText: '选择',
-              navigateText: '切换',
-              closeText: "关闭"
-            }
-          }
-        }
-      }
+              selectText: "选择",
+              navigateText: "切换",
+              closeText: "关闭",
+            },
+          },
+        },
+      },
     },
     nav: [
-      { text: '首页', link: '/' },
-      { text: '我的宇宙', link: '/MyUniverse' }
+      { text: "首页", link: "/" },
+      { text: "我的宇宙", link: "/MyUniverse" },
     ],
 
     sidebar: [
       {
-        text: '我的宇宙',
+        text: "我的宇宙",
         collapsed: true,
-        items: [
-          {}
-        ]
+        items: [{}],
       },
       {
-        text: '临时',
+        text: "临时",
         collapsed: true,
         items: [
           {
-            text: 'Temp',
+            text: "Temp",
             collapsed: true,
             items: [
-              { text: 'Template 1', link: '/Temp/Template 1' },
-              { text: 'Template 2', link: '/Temp/Template 2' },
-              { text: 'Template 3', link: '/Temp/Template 3' }
-            ]
-          }
-        ]
-      }
+              { text: "Template 1", link: "/Temp/Template 1" },
+              { text: "Template 2", link: "/Temp/Template 2" },
+              { text: "Template 3", link: "/Temp/Template 3" },
+            ],
+          },
+        ],
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
 
     outline: {
@@ -122,6 +120,6 @@ export default defineConfig({
     footer: {
       message: `<a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2025127622号</a>`,
       copyright: `版权所有 © 2025-${new Date().getFullYear()} VsA`,
-    }
-  }
-})
+    },
+  },
+});
